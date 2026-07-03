@@ -18,7 +18,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_ORIGIN || "*",
+    origin: process.env.CLIENT_ORIGIN || "https://restaurant-reservation-frontend.vercel.app",
   }),
 );
 app.use(express.json());
